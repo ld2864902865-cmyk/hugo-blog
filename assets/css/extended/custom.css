@@ -1,0 +1,11 @@
+:root {
+    --main-width: 1040px;  /* 正文区域宽度，默认 720px */
+    --nav-width: 1120px;  /* 顶部导航栏宽度，默认 1024px */
+}
+
+/* 让 Mermaid 流程图透明背景、居中显示，超宽时支持横向滚动不撑破布局 */
+pre.mermaid {
+    background: transparent;
+    text-align: center;
+    overflow-x: auto;
+}
