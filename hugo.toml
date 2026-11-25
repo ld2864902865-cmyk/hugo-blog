@@ -1,0 +1,42 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-cn'
+title = '我的个人博客'
+theme = 'PaperMod'
+hasCJKLanguage = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  env = 'production'
+  description = '记录技术折腾、学习笔记与日常思考'
+  author = '博主'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = '你好，欢迎来到我的博客 👋'
+    Content = '这是我使用 Hugo + PaperMod 搭建的第一个静态个人博客，记录建站与技术折腾过程。'
+
+[[menu.main]]
+  identifier = 'posts'
+  name = '文章'
+  url = '/posts/'
+  weight = 10
+
+[[menu.main]]
+  identifier = 'tags'
+  name = '标签'
+  url = '/tags/'
+  weight = 20
+
+[[menu.main]]
+  identifier = 'about'
+  name = '关于'
+  url = '/about/'
+  weight = 30
