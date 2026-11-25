@@ -18,7 +18,7 @@ description = '使用 Hugo 静态博客生成器搭建的第一个测试文章�
 
 - [x] 本地安装 Hugo 并初始化站点
 - [x] 配置 PaperMod 主题与示例文章
-- [ ] 推送到 GitHub 并部署到托管平台（Cloudflare Pages / GitHub Pages）
+- [x] 推送到 GitHub 并部署到托管平台（Cloudflare Pages / GitHub Pages）
 - [ ] 第二阶段：体验在自己的 Vultr VPS 上搭建博客
 
 ## 代码高亮测试
