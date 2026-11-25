@@ -1,6 +1,6 @@
 baseURL = 'https://hugo-blog-60u.pages.dev/'
 languageCode = 'zh-cn'
-title = '我的个人博客'
+title = 'Arrogance的个人博客'
 theme = 'PaperMod'
 hasCJKLanguage = true
 
@@ -10,7 +10,7 @@ hasCJKLanguage = true
 [params]
   env = 'production'
   description = '记录技术折腾、学习笔记与日常思考'
-  author = '博主'
+  author = 'Amen'
   defaultTheme = 'auto'
   ShowReadingTime = true
   ShowPostNavLinks = true
@@ -40,3 +40,13 @@ hasCJKLanguage = true
   name = '关于'
   url = '/about/'
   weight = 30
+
+
+  [markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
